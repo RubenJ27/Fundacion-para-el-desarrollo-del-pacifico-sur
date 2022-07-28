@@ -29,7 +29,7 @@
   
   .sub__nav__container__text__icon{
     margin-right: 0.3rem;
-    color: var(--color-green);
+    color: var(--color-blue);
   }
   
   .sub__nav__container__donate{
@@ -53,7 +53,7 @@
   
   .sub__nav__container__donate__icon:hover{
     transition: all 0.9s;
-    color: var(--color-green);
+    color: var(--color-blue);
   }
 
   /***nav***/
@@ -73,10 +73,16 @@
     width: 100%;
   }
 
-  .nav__container__row__icon{
+  .nav__container__row__icons{
     display: flex;
     align-items: center;
     margin-right: 3rem;
+  }
+
+  .nav__container__row__icon{
+    display: flex;
+    width: 80px;
+    height: 72px;
   }
 
   .nav__container__row__list{
@@ -109,7 +115,7 @@
 
   .nav__container__row__list__li__title:hover{
     transition: var(--duration-transition-base);
-    color: var(--color-green);
+    color: var(--color-blue);
   }
 
   .indicator__icon{
@@ -133,7 +139,7 @@
     padding: 0.7rem;
     width: 40px;
     height: 40px;
-    color: var(--color-green);
+    color: var(--color-blue);
     border: 1px solid #e1e1e1;
     text-align: center;
     border-radius: 50%;

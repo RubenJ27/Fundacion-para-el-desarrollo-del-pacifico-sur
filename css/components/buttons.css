@@ -3,15 +3,16 @@
   border-radius: 15px;
   border: none;
   cursor: pointer;
-  background-color: var(--color-green);
-  border: 1px solid var(--color-green);
+  background: linear-gradient(90deg, rgba(254,0,0,1) 0%, rgba(24,70,218,1) 35%, rgba(254,235,60,1) 100%);
+  border: 1px solid rgba(254,235,60,1);
   color: var(--color-white);
   font-weight: 700;
 
 }
 
 .btn__donate:hover{
-  color: var(--color-green);
-  background-color: transparent;
-  transition: all .5s;
+  border: 1px solid var(--color-green);
+  color: var(--color-white);
+  background: var(--color-green);
+  transition: all 0.5s 0s ease-in;
 }

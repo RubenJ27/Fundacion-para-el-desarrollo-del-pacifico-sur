@@ -4,6 +4,7 @@
   /* COLOR PALETTE*/
   /***************************/
   --color-gray-mediem: #f8f9fa;
+  --color-blue: #1846DA;
   --color-gray: #F7F7F7;
   --color-gray-text: #999999;
   --color-green: #8DC63F;
@@ -12,11 +13,11 @@
   --color-gray-icon: #5e6c84;
   --color-gray-mediem: #817f7f;
   --color-gray-icon: #6b778c;
-  --color-yellow: #e0c527;
+  --color-yellow: #FEEB3C;
   --color-green: #37bb3e;
   --color-blue: #3b4fff;
   --color-blue-tittle-card: #172b4d;
-  --color-red: #ff3838;
+  --color-red: #FE0000;
   --color-black: #161616;
   --color-white: #FFFFFF;
   --dynamic-background-color: hsl(150,2.7%,14.5%);
