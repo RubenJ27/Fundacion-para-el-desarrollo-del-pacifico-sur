@@ -1,84 +1,18 @@
-/*estilos-predeterminados*/
-:root {
-  --color-gray-mediem: #f8f9fa;
-  --color-white: #FFFFFF;
-  --color-gray: #F7F7F7;
-  --color-gray-text: #999999;
-  --color-green: #8DC63F;
- }
-*{
-  padding: 0;
-  margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-/*   font-family: 'Open Sans', sans-serif; */
-  box-sizing: border-box;
-  text-decoration: none;
-  letter-spacing: 0.080rem;
-}
+@import './components/buttons.css';
 
-/***sub-nav**/
 
-.container__sub__nav{
-display: flex;
-line-height: 48px;
-justify-content: space-around;
-background-color: var(--color-gray);
-}
 
-.container__sub__nav__text{
-  display: flex;
-  align-items: center;
-  color: var(--color-gray-text);
-}
+/* config files */
+@import './config/reset.css';
+@import './config/var.css';
+/* layout files */
+@import './layout/index.css';
+/* theme files */
+@import './theme/nav.css';
+@import './theme/main.css';
+@import './theme/aside.css';
+/* components files */
+/* components files */
 
-.sub__nav__text{
-  font-weight: lighter;
-  font-size: 14px;
-  margin: 0.5rem 0.8rem;
-}
 
-.container__sub__nav__text__icon{
-  color: var(--color-green);
-}
-
-.container__sub__nav__donate{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.container__sub__nav__donate__icons{
-  display: flex;
-  margin-right: 25px;
-}
-
-.container__sub__nav__donate__icon{
-  display: flex;
-  margin: 0.6rem;
-  font-size: 0.8rem;
-  color: var(--color-gray-text);
-}
-
-.container__sub__nav__donate__icon:hover{
-  transition: all 0.9s;
-  color: var(--color-green);
-}
-
-.btn__donate{
-  padding: 0.8rem 1.5rem;
-  border-radius: 15px;
-  border: none;
-  cursor: pointer;
-  background-color: var(--color-green);
-  border: 1px solid var(--color-green);
-  color: var(--color-white);
-  font-weight: 700;
-
-}
-
-.btn__donate:hover{
-  color: var(--color-green);
-  background-color: transparent;
-  transition: all .5s;
-}
 
