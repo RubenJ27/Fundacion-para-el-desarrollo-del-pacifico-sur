@@ -1,0 +1,172 @@
+.footer{
+  position: relative;
+  background-color: #135276;
+  padding: 25px 0 80px;
+  margin: 3rem auto;
+}
+.footer__container{
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__container__info__imgs{
+  display: flex;
+  margin-bottom: 2.5rem;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+.footer__container__info__img{
+  display: flex;
+  list-style: none;
+  width: 80px;
+  height: 72px;
+}
+
+.footer__container__info__texts{
+  margin-bottom: 20px;
+}
+
+.footer__container__info__contact__li{
+  position: relative;
+  font-size: 15px;
+  color: #999;
+  line-height: 26px;
+  margin-bottom: 14px;
+  list-style: none;
+}
+
+.footer__container__info__contact__icon{
+  text-decoration: none;
+  margin: 0.6rem;
+  font-size: 0.8rem;
+  color: var(--color-gray-text);
+}
+
+.footer__container__quick-links__title{
+  margin-top: 1.7rem;
+  margin-bottom: 60px;
+}
+
+.footer__container__quick-links__li{
+  position: relative;
+  margin-bottom: 16px;
+  list-style: none;
+}
+
+.footer__container__quick-links__li__icon{
+  margin-right: 0.5rem;
+  color: var(--color-gray-text);
+}
+
+.footer__container__quick-links__li__link{
+  text-decoration: none;
+  color: var(--color-gray-text);
+}
+
+.footer__container__upcoming-events__title{
+  margin-top: 1.7rem;
+  margin-bottom: 60px;
+}
+
+.footer__container__upcoming-events__list__post{
+  position: relative;
+  padding-left: 90px;
+  margin-bottom: 35px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #363636;
+}
+
+.footer__container__upcoming-events__list__post:last-child{
+  border-bottom: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.container__upcoming-events__list__post__imgs{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 70px;
+  height: 70px;
+}
+
+.container__upcoming-events__list__post__img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 70px;
+  height: 70px;
+}
+
+.footer__container__upcoming-events__list__post_img-title{
+  width: 200px;
+  position: relative;
+  top: -5px;
+  font-size: 16px;
+  color: #999;
+  line-height: 26px;
+}
+
+.footer__container__upcoming-events__list__post_img-title__link{
+  text-decoration: none;
+}
+
+.container__subscribe__title{
+  margin-top: 1.7rem;
+  margin-bottom: 60px;
+}
+
+.container__subscribe__form__title{
+  font-size: 16px;
+  color: #999;
+  margin-bottom: 18px;
+}
+
+.container__subscribe__form{
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.container__subscribe__form__mail{
+  background: #2e2e2e;
+  color: var(--color-white);
+  border: 1px solid #363636;
+  width: 100%;
+  padding: 0 15px;
+  line-height: 40px;
+  outline: none;
+}
+
+
+
+.container__subscribe__form__btn{
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  top: 0;
+  height: 42px;
+  width: 40px;
+  line-height: 42px;
+  background: var(--color-blue);
+  color: #fff;
+}
+
+.container__subscribe__text__mail{
+  width: 250px;
+  color: var(--color-gray-text);
+  padding-bottom: 19px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #363636;
+}
+
+.container__subscribe__social-icons{
+  display: flex;
+  list-style: none;
+}
+
+
+.footer__container__info,.footer__container__quick-links,.footer__container__upcoming-events,.footer__container__subscribe{
+  margin-top: 50px;
+}
