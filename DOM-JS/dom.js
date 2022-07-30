@@ -1,3 +1,13 @@
+import scrollTopButtom from "./boton_scroll.js";
+
+
+const d = document;
+d.addEventListener("DOMContentLoaded", e => {
+  scrollTopButtom(".scroll-top-btn"); 
+  
+});
+
+
 //imagenes
 let images = ['/assets/gallery/programas-sociales.jpeg', '/assets/gallery/programas-sociales-1.jpeg', '/assets/gallery/programas-sociales-2.jpeg', '/assets/gallery/programas-sociales-3.jpeg'];
 
@@ -42,15 +52,18 @@ let timeGalery = setInterval(function(){
 
 //Evento para saber si el raton esta sobre del slide
 sliderContainer.addEventListener("mouseover", ()=>{
-    console.log("false")
     clearInterval(timeGalery);
 	
 });
 sliderContainer.addEventListener("mouseout", ()=>{
-    console.log("true")
     if (active === true) {
         timeGalery = setInterval(function(){
             plusDivs(1);
         }, 5000)
     }
 });
+
+
+/* scrol btn */
+
+

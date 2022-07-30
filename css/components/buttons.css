@@ -45,3 +45,29 @@
   background: var(--color-blue);
   transition: all 0.5s 0s ease-in;
 }
+
+.scroll-top-btn{
+  position: fixed;
+  z-index: 999;
+  bottom: 1vh;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  left: calc(79.25rem + 1vh);
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  transition: all 0.3s ease-out;
+}
+.scroll-top-btn:hover{
+  background-color: var(--color-blue-dark);
+  color: var(--color-white);
+}
+.hidden{
+  opacity: 0;
+  visibility: hidden;
+}
