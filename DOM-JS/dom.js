@@ -38,7 +38,7 @@ for (i = 0; i < dots.length; i++) {
 
 let timeGalery = setInterval(function(){
     plusDivs(1);
-}, 5000)
+}, 8000)
 
 //Evento para saber si el raton esta sobre del slide
 sliderContainer.addEventListener("mouseover", ()=>{
