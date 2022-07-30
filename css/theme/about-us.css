@@ -1,6 +1,5 @@
 .about-us{
   /*   background-color: #061138; */
-
     margin-top: 2rem;
     margin-bottom: 0;
   }
@@ -18,7 +17,6 @@
     justify-content: space-around;
     width: 100%;
   }
-
 
   .about-us__container__row__img-1{
     position: absolute;
