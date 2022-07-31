@@ -21,13 +21,34 @@
     margin-bottom: 15px;
     color: var(--color-blue);
   }
+  .mission-and-vision__container__row__mission__p{
+    font-size: 18px;
+    text-align: initial;
+    margin-bottom: 26px;
+    text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 7; /* number of lines to show */
+           line-clamp: 6; 
+   overflow: hidden;
+   cursor: pointer;
+    color: rgb(99, 99, 99);
+    line-height: 32px;
+    letter-spacing: 0px;
+    font-weight: 300;
+  }
+
+  .mission-and-vision__container__row__mission__p:active{
+    cursor: pointer;
+    display: block;
+  }
 
   .mission-and-vision__container__row__mission{
     width: 525px;
     height: 100%;
     text-align: center;
     margin: 0 auto;
-    padding: 30px 20px;
+    padding: 30px 30px;
     box-shadow: 0px 1px 11.04px 4.96px rgba(185, 175, 175, 0.52);
   }
 
@@ -64,8 +85,24 @@
     height: 100%;
     text-align: center;
     margin: 0 auto;
-    padding: 30px 20px;
+    padding: 30px 30px;
     box-shadow: 0px 1px 11.04px 4.96px rgba(185, 175, 175, 0.52);
+  }
+  .mission-and-vision__container__row__vision__p{
+    font-size: 18px;
+    text-align: initial;
+    margin-bottom: 26px;
+    text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 7; /* number of lines to show */
+           line-clamp: 6; 
+   overflow: hidden;
+   cursor: pointer;
+    color: rgb(99, 99, 99);
+    line-height: 32px;
+    letter-spacing: 0px;
+    font-weight: 300;
   }
 
   .mission-and-vision__container__row__vision__icon{
