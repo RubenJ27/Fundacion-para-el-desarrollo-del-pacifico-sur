@@ -17,6 +17,49 @@
     width: 100%;
   }
 
+  .mission-and-vision__container__row__mission__container-triangule{
+    padding: initial;
+    width: 36%;
+    z-index: -100;
+    position: absolute;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+  }
+
+  .mission-and-vision__container__row__mission__triangule{
+    position: absolute;
+     width: 0; 
+     height: 0; 
+     border-left: 100px solid rgba(255, 0, 0, 0.107);
+     border-top: 50px solid transparent;
+     border-bottom: 50px solid transparent; 
+  }
+
+  .mission-and-vision__container__row__mission__container-triangule-1{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    z-index: -100;
+    width: 33%;
+    position: absolute;
+    height: 80%;
+  }
+
+  .mission-and-vision__container__row__mission__triangule-1{
+    position: absolute;
+     width: 0; 
+     height: 0; 
+     transform: rotate(180deg);
+     border-left: 250px solid rgba(255, 251, 0, 0.107);
+     border-top: 200px solid transparent;
+     border-bottom: 200px solid transparent; 
+  }
+
   .mission-and-vision__container__row__title{
     margin-bottom: 15px;
     color: var(--color-blue);
@@ -88,6 +131,50 @@
     padding: 30px 30px;
     box-shadow: 0px 1px 11.04px 4.96px rgba(185, 175, 175, 0.52);
   }
+
+  .mission-and-vision__container__row__vision__container-triangule{
+    padding: initial;
+    width: 36%;
+    z-index: -100;
+    position: absolute;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+  }
+
+  .mission-and-vision__container__row__vision__triangule{
+    position: absolute;
+     width: 0; 
+     height: 0; 
+     border-left: 100px solid rgba(255, 0, 0, 0.107);
+     border-top: 50px solid transparent;
+     border-bottom: 50px solid transparent; 
+  }
+
+  .mission-and-vision__container__row__vision__container-triangule-1{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    z-index: -100;
+    width: 33%;
+    position: absolute;
+    height: 80%;
+  }
+
+  .mission-and-vision__container__row__vision__triangule-1{
+    position: absolute;
+     width: 0; 
+     height: 0; 
+     transform: rotate(180deg);
+     border-left: 250px solid rgba(255, 251, 0, 0.107);
+     border-top: 200px solid transparent;
+     border-bottom: 200px solid transparent; 
+  }
+
   .mission-and-vision__container__row__vision__p{
     font-size: 18px;
     text-align: initial;
