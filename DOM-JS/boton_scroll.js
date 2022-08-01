@@ -6,7 +6,7 @@ export default function scrollTopButtom(btn) {
 
   w.addEventListener("scroll", e => {
     let scrollTop = w.pageYOffset || d.documentElement.scrollTop;
-    if (scrollTop > 620) {
+    if (scrollTop > 740) {
       $scrollBtn.classList.remove("hidden");
     }else{
       $scrollBtn.classList.add("hidden");

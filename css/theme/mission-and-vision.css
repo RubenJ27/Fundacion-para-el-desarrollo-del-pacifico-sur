@@ -1,6 +1,5 @@
 .mission-and-vision{
   /*   background-color: #061138; */
-    margin-top: 2rem;
     margin-bottom: 0;
   }
   .mission-and-vision__container{
@@ -160,7 +159,7 @@
     justify-content: end;
     align-items: center;
     z-index: -100;
-    width: 33%;
+    width: 34.3%;
     position: absolute;
     height: 80%;
   }
