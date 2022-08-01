@@ -3,6 +3,7 @@
 
   /* COLOR PALETTE*/
   /***************************/
+  --color-fundepecsur: linear-gradient(90deg, rgba(254,0,0,1) 0%, rgba(24,70,218,1) 35%, rgba(254,235,60,1) 100%);
   --color-gray-mediem: #f8f9fa;
   --color-blue: #1944E0;
   --color-blue-dark: #102c8a;

@@ -100,8 +100,14 @@
     list-style: none;
   }
 
+  .nav__container__row__list__li--active{
+    border-radius: 5%;
+    color: var(--color-white);
+    background-color: var(--color-blue);
+  }
+
   .nav__container__row__list__li__title {
-    padding: 26px 16px;
+    padding: 20px 16px;
     color: #303030;
     text-transform: uppercase;
     display: inline-block;
@@ -113,9 +119,16 @@
     font-family: "Open Sans", sans-serif;
   }
 
+  .nav__container__row__list__li__title--active{
+    color: var(--color-white);
+  }
+
+
   .nav__container__row__list__li__title:hover{
+    border-radius: 5%;
+    color: var(--color-white);
+    background-color: var(--color-blue);
     transition: var(--duration-transition-base);
-    color: var(--color-blue);
   }
 
   .indicator__icon{
