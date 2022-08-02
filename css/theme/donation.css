@@ -23,7 +23,7 @@
   height: 500px;
   position: relative;
  /*  background-image: url("/assets/Donation/Donation.jpeg"); */
-  background-image: ("/Fundacion-para-el-desarrollo-del-pacifico-sur/assets/Donation/Donation.jpeg");
+  background-image: url("/Fundacion-para-el-desarrollo-del-pacifico-sur/assets/Donation/Donation.jpeg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
