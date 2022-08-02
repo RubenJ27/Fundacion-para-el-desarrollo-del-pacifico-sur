@@ -102,7 +102,82 @@
 
   .nav__container__row__list__ul{
     display: flex;
+    list-style: none;
+  padding-top: 0;
+  padding-inline-start: 0px;
   }
+
+  /*** Sub-lista ***/
+  .nav__container__row__list__li--modifier{
+    position: relative;
+  }
+
+  .nav__container__row__list__li--modifier:hover .nav__container__row__list__li__ul{
+    list-style: none;
+    border-radius: 2%;
+    background-color: var(--color-blue);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    animation: 300ms ease desplegar 1;
+    position: absolute;
+    z-index: 700;
+  }
+
+  .nav__container__row__list__li--modifier .nav__container__row__list__li__ul{
+    display: none;
+  }
+
+  .nav__container__row__list__li__ul-row{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav__container__row__list__li__ul-row-1{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav__container__row__list__li__ul-item{
+    width: 160px;
+    height: 45px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem 0;
+    margin: 0 0;
+    font-size: 14px;
+    font-weight: var(--fw-bold);
+    text-decoration-line: none;
+    text-transform: uppercase;
+	  color: var(--color-dark);
+  }
+  .nav__container__row__list__li__ul-item:hover{
+    position: relative;
+    width: 160px;
+    height: 45px;
+    text-decoration-line: none;
+    color: var(--color-white);
+	  background: var(--color-blue-dark);
+    transition: all 0.5s 0s ease-in;
+  }
+
+  /* Animaciones */
+@keyframes desplegar {
+  from {
+    transform: scaleY(0.5);
+    
+    /* 
+       La propiedad transform: scaleY(0.5) junto a la 
+       propiedad transform-origin: left top; permitirá 
+       crear un efecto visual de un submenú que se desenrrolla.
+    */
+  }
+}
+  
+  /*** Cierre sub-lista ***/
 
   .nav__container__row__list__li{
     margin: 0 0.5rem;
