@@ -109,6 +109,9 @@
            line-clamp: 6; 
    overflow: hidden;
    list-style: decimal;
+   color: rgb(99, 99, 99);
+  line-height: 24px;
+  font-weight: 300;
   }
 
   .services__container__row__item__list--modifier{

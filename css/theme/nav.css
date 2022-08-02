@@ -101,9 +101,8 @@
   }
 
   .nav__container__row__list__li--active{
-    border-radius: 5%;
     color: var(--color-white);
-    background-color: var(--color-blue);
+    background-color: var(--color-white);
   }
 
   .nav__container__row__list__li__title {
@@ -120,6 +119,8 @@
   }
 
   .nav__container__row__list__li__title--active{
+    border-radius: 5%;
+    background-color: var(--color-blue);
     color: var(--color-white);
   }
 

@@ -1,5 +1,6 @@
 /* components */
 @import './components/buttons.css';
+@import './components/scroll-nav.css';
 
 /* config files */
 @import './config/reset.css';
@@ -12,6 +13,7 @@
 @import './theme/about-us.css';
 @import './theme/mission-and-vision.css';
 @import './theme/services.css';
+@import './theme/portfolio.css';
 @import './theme/footer.css';
 /* components files */
 
