@@ -164,10 +164,11 @@ background: linear-gradient(127deg, rgba(16,32,91,1) 0%, rgba(13,22,55,1) 21%, r
 .container__subscribe__form__btn{
   position: absolute;
   cursor: pointer;
+  border: inherit;
   right: 0;
   top: 0;
-  height: 42px;
   width: 40px;
+  height: auto;
   line-height: 42px;
   background: var(--color-blue);
   color: #fff;
@@ -183,6 +184,7 @@ background: linear-gradient(127deg, rgba(16,32,91,1) 0%, rgba(13,22,55,1) 21%, r
 
 .container__subscribe__social-icons{
   display: flex;
+  align-items: center;
   list-style: none;
 }
 
@@ -224,6 +226,10 @@ background: linear-gradient(127deg, rgb(16, 30, 80) 0%, rgba(13,22,55,1) 21%, rg
 .footer__bottom__container__right__title{
   color: var(--color-blue);
   text-decoration: none;
+}
+
+.sub__nav__container__donate--footer{
+  margin-left: 1rem;
 }
 
 

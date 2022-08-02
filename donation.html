@@ -30,8 +30,8 @@
           <a href="#" class="sub__nav__container__donate__icon"><i class="fa-brands fa-instagram"></i></a>
           <a href="#" class="sub__nav__container__donate__icon"><i class="fa-brands fa-twitter"></i></a>
         </div>
-
-        <a href="#donation"><input type="button" value="DONAR AHORA" class="btn__donate"></a>
+        <div class="sub__nav__container__donate__icons"><a href="#donation"><input type="button" value="DONAR AHORA" class="btn__donate"></a></div>
+        
       </div>
 
     </div>
@@ -54,11 +54,11 @@
             </a></li>
             <li class="nav__container__row__list__li"><a href="index.html#services" class="nav__container__row__list__li__title">Servicios
                 <span class="indicator__icon"><i class="fa-solid fa-angle-down"></i></span></a></li>
-            <li class="nav__container__row__list__li"><a href="#"
-                class="nav__container__row__list__li__title nav__container__row__list__li__title--active">Portafolio
+            <li class="nav__container__row__list__li"><a href="portfolio.html"
+                class="nav__container__row__list__li__title">Portafolio
               </a></li>
             <li class="nav__container__row__list__li"><a href="donation.html"
-                class="nav__container__row__list__li__title">Donaciones</a></li>
+                class="nav__container__row__list__li__title nav__container__row__list__li__title--active">Donaciones</a></li>
             
             <li class="nav__container__row__list__li"><a href="#contact"
                 class="nav__container__row__list__li__title">Contacto</a></li>
@@ -74,77 +74,30 @@
   </section>
 
 
-  <!-- Galeria de trabajo -->
-  <section class="portfolio" id="galeria">
+  <!-- Donation de trabajo -->
+  <section class="donation" id="donation">
 
-    <div class="portfolio__container">
-
-      <div class="portfolio__container__row">
-        <div class="portfolio__container__row__title">
-          <h2 class="portfolio__container__row__title__text">Portafolio</h2>
-          <p class="portfolio__container__row__title__p">Hemos estado salvando y cambiando vidas</p>
-        </div>
-        <hr />
-        <!-- imagenes-galeria -->
-        <div class="portfolio__container__row__images">
-          <div class="row-1">
-
-            <div class="portfolio__container__row__images__container">
-              <img src="/assets/Portfolio/Portfolio-1.jpeg" class="portfolio__container__row__images__container-img"  alt="Imagen portafolio">
+    <div class="donation__container">
+      <div class="donation__container__row">
+        <div class="donation__container__row__img">
+          
+          <div class="donation__container__row__title">
+            <div class="donation__container__row__title__icons">
+              <a href="#"><img src="assets/Donation/hand-donate-color.png" class="donation__container__row__title__icon"></a>
             </div>
+            <h1 class="donation__container__row__title__text">Realiza tu donacion</h1><br>
+            <p class="donation__container__row__title__p">Cuando nos das, sabes que tu donación está haciendo una diferencia.</p>
 
-            <div class="portfolio__container__row__images__container">
-              <img src="/assets/Portfolio/Portfolio-2.jpeg" class="portfolio__container__row__images__container-img" alt="Imagen portafolio">
-            </div>
-
-            <div class="portfolio__container__row__images__container">
-              <img src="/assets/Portfolio/Portfolio-3.jpeg" class="portfolio__container__row__images__container-img" alt="Imagen portafolio">
-            </div>
           </div>
 
-          <div class="row-2">
+          <div class="donation__container__row__icons">
 
-            <div class="portfolio__container__row__images__container">
-              <img src="/assets/Portfolio/Portfolio-4.jpeg" class="portfolio__container__row__images__container-img"  alt="Imagen portafolio">
-            </div>
+              <img src="/assets/Donation/Nequi-Logo-Download-Vector.png"        class="donation__container__row__icon-img" alt="Icon donation">
 
-            <div class="portfolio__container__row__images__container">
-              <img src="/assets/Portfolio/Portfolio-5.jpeg" class="portfolio__container__row__images__container-img" alt="Imagen portafolio">
-            </div>
-
-            <div class="portfolio__container__row__images__container">
-              <img src="/assets/Portfolio/Portfolio-6.jpeg" class="portfolio__container__row__images__container-img" alt="Imagen portafolio">
-            </div>
-          </div>
-
-          <div class="row-3">
-
-            <div class="portfolio__container__row__images__container">
-              <img src="/assets/Portfolio/Portfolio-7.jpeg" class="portfolio__container__row__images__container-img"  alt="Imagen portafolio">
-            </div>
-
-            <div class="portfolio__container__row__images__container">
-              <img src="/assets/Portfolio/Portfolio-8.jpeg" class="portfolio__container__row__images__container-img" alt="Imagen portafolio">
-            </div>
-
-            <div class="portfolio__container__row__images__container">
-              <img src="/assets/Portfolio/Portfolio-9.jpeg" class="portfolio__container__row__images__container-img" alt="Imagen portafolio">
-            </div>
-          </div>
-
-          <div class="row-4">
-
-            <div class="portfolio__container__row__images__container">
-              <img src="/assets/Portfolio/Portfolio-10.jpeg" class="portfolio__container__row__images__container-img"  alt="Imagen portafolio">
-            </div>
-
-            <div class="portfolio__container__row__images__container">
-              <img src="/assets/Portfolio/Portfolio-11.jpeg" class="portfolio__container__row__images__container-img" alt="Imagen portafolio">
-            </div>
-
-            <div class="portfolio__container__row__images__container">
-              <img src="/assets/Portfolio/Portfolio-12.jpeg" class="portfolio__container__row__images__container-img" alt="Imagen portafolio">
-            </div>
+              <div class="donation__container__row__icon__title">
+                <h3 class="donation__container__row__icon__title-text">3225237465<br>&<br>3152387502</h3>
+              </div>
+            
           </div>
 
         </div>
@@ -157,7 +110,6 @@
 
 </body>
 
-<!-- Footer -->
 <footer class="seccion footer" id="contact">
   <section class="footer__container">
     <div class="footer__container__row">
@@ -293,7 +245,6 @@
 <!-- scroll btn -->
 <button class="scroll-top-btn hidden">&#11014;</button>
 <script src="DOM-JS/dom.js" type="module"></script>
-<script src="DOM-JS/gallery.js"></script>
 <!-- Creator Ruben Jaramillo Cervantes -->
 
 </html>

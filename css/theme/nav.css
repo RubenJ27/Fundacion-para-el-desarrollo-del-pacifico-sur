@@ -22,13 +22,16 @@
   }
   
   .sub__nav__text{
+    display: flex;
+    align-items: center;
     font-weight: lighter;
     font-size: 14px;
     margin: 0.5rem 0.8rem;
   }
   
   .sub__nav__container__text__icon{
-    margin-right: 0.3rem;
+    font-size: 1.2rem;
+    margin-right: 0.6rem;
     color: var(--color-blue);
   }
   
@@ -40,15 +43,21 @@
   
   .sub__nav__container__donate__icons{
     display: flex;
+    height: 100%;
+    align-items: center;
     margin-right: 25px;
   }
   
   .sub__nav__container__donate__icon{
     display: flex;
+    align-items: center;
     text-decoration: none;
     margin: 0.6rem;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     color: var(--color-gray-text);
+  }
+  .sub__nav__container__donate__icon--modifier{
+    margin: inherit;
   }
   
   .sub__nav__container__donate__icon:hover{
