@@ -111,6 +111,11 @@ background: linear-gradient(127deg, rgba(16,32,91,1) 0%, rgba(13,22,55,1) 21%, r
   height: 70px;
 }
 
+.container__upcoming-events__list__post-link{
+  width: 70px;
+  height: 70px;
+}
+
 .container__upcoming-events__list__post__img{
   display: block;
   max-width: 100%;
