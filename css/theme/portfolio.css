@@ -49,17 +49,19 @@
   margin: 1rem 0.5rem;
   display: inline-flex;
   overflow: hidden;
+  width: 25rem;
+  height: 25rem;
 }
 
 .portfolio__container__row__images__container-img {
   margin: 0rem 0rem;
   object-fit: cover;
   border-radius: 1.2%;
-  width: 25rem;
-  height: 25rem;
   -moz-transition: all 0.8s;
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
+  width: 400px;
+  height: 400px;
 }
 .portfolio__container__row__images__container-img:hover {
   -moz-transform: scale(1.2);
