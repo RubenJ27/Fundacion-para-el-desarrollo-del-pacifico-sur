@@ -5,8 +5,10 @@
 /* config files */
 @import './config/reset.css';
 @import './config/var.css';
+
 /* layout files */
-@import './layout/index.css';
+/* @import './layout/index.css'; */
+
 /* theme files */
 @import './theme/nav.css';
 @import './theme/galeria-slider.css';
